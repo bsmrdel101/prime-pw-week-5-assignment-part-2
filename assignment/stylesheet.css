@@ -3,6 +3,22 @@ body {
   background-repeat: repeat;
   background-position: top;
   margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #cbcacf;
+  padding: 1em;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+  border-color: #191440;
+}
+
+.disc {
+  border: 3px;
+  border-style: solid;
+  border-color: #5c50b7;
 }
 
 .title {
@@ -11,8 +27,14 @@ body {
   background-color: #191440;
 }
 
-main {
-  background-color: #cbcacf;
-  padding: 1em;
-  text-align: center;
+.subtitle {
+  background-color: #5c50b7;
+  color: white;
+}
+
+/*FLEXBOX*/
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
 }
