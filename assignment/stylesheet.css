@@ -1,0 +1,18 @@
+body {
+  background-image: url(record.png);
+  background-repeat: repeat;
+  background-position: top;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  background-color: #191440;
+}
+
+main {
+  background-color: #cbcacf;
+  padding: 1em;
+  text-align: center;
+}
